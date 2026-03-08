@@ -7,7 +7,7 @@ const Milk = () => {
       <img src="/images/milk_extr.png" alt='milk' width={200} height={200}/>
       <br/>
       <div style={{ marginTop: '10px' }}></div>
-      <input type="Number" placeholder="no of milk" style={{ borderRadius: '10px',padding: '10px' }}/>
+      <input type="Number" placeholder="no of milk" style={{ borderRadius: '6px',padding: '10px' ,border:'2px solid #895129'}}/>
     </div>
   )
 }
