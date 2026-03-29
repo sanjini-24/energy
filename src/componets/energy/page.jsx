@@ -5,13 +5,13 @@ const Energy = ({result}) => {
   let text = "";
 
   if (result <= 100){
-    image = "/images/lowlevel1.jpeg";
+    image = "/images/dull.png";
     text = "low energy";
   }else if ( result >= 1000){
     image = "/images/happyyy.png" ;
     text = "high energy";
   }else{
-    image = "/images/mediumlevel.jpeg";
+    image = "/images/middle.png";
     text = "medium energy";
   }
   return (
